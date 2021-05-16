@@ -1,0 +1,29 @@
+body {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+header,
+
+footer {
+  height: 20vh ;
+  border:2.5px solid red;
+}
+main {
+	display: flex;
+	flex: 1;
+}
+nav,
+
+aside {
+  width: 20vw;
+  border:2.5px solid red;
+}
+article {
+   flex: 1;
+   border:2.5px solid red;
+}
+
+nav {
+	order: -1;
+}
